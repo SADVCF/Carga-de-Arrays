@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="misEstilos.css">
+    <script src="misScripts.js"></script>
+    <title>Datos trabajador</title>
+</head>
+<body>
+    <label for="expedienteTrabajador">Nº Expediente: </label><input id="expedienteTrabajador" type="number" value=""
+    min="0" max="9999">
+    <br>
+    <label for="nombre">Nombre: </label><input id="nombreTrabajador" type="text" value="">
+    <br>
+    <label for="apellidos">Apellidos: </label><input id="apellidosTrabajador" type="text" value="">
+    <br>
+    <label for="Nacimiento">Nacimiento: </label><input id="fechaNacimiento" type="date" value="">
+    <br>
+    <button onclick="cargar()">Cargar datos</button>
+    <button onclick="mostrarDatos()">Mostrar datos</button>
+    <p id="salida">
+        
+    </p>
+
+    
+</body>
+</html>
